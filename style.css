@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media (min-width:500px) and (max-width:900px) {
+    p {
+        font-size: 40px;
+        color: red;
+    }
+}
+
+header {
+    padding: 21px 24px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header button {
+    width: 256px;
+    height: 36px;
+    border-radius: 12px;
+    color: white;
+    background: rgb(252, 0, 74);
+    border: none;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+nav {
+    display: flex;
+    gap: 15px;
+}
+
+#hero img {
+    width: 100%;
+}
+
+@media (max-width:768px) {
+    .img1 {
+        display: none;
+    }
+
+    button {
+        width: 256px;
+        height: 36px;
+    }
+
+    #hero img {
+        width: 100%;
+        height: 231px;
+    }
+    .card img{
+    width: 211.59px;
+    height: 315.14px;
+    }
+    .content .card{
+        display: flex;
+        gap: 13px;
+        flex-wrap: wrap;
+        margin-left: 20px;
+    }
+    
+
+}
+
+.img2 {
+    display: none;
+}
+
+@media (max-width:568px) {
+    .img2 {
+        display: block;
+    }
+
+    nav {
+        display: none;
+    }
+
+    button {
+        width: 256px;
+        height: 48px;
+    }
+
+    #hero img {
+        width: 100%;
+        height: 180px;
+    }
+    .card img{
+    width: 173px;
+    height: 313px;
+    }
+    .content .card{
+        display: flex;
+        margin-left: 35px;
+    }
+}
+
+#hero {
+    padding: 24px;
+}
+
+#hero h2 {
+    color: rgb(38, 38, 38);
+    font-family: Inter;
+    font-size: 32.48px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 60px;
+}
+
+.card img {
+    width: 235px;
+    height: 391px;
+}
+
+.content .card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+
+}
+
+.card {
+    margin-top: 44px;
+}
